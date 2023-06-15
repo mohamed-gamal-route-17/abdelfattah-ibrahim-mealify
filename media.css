@@ -1,0 +1,86 @@
+@media screen and (max-width:992px) {
+
+
+    html { font-size: 15px;}
+    .part1 { height: fit-content; padding: 3rem 0;}
+    .parti{  display: flex; flex-direction: block; flex-wrap: wrap-reverse;  justify-content: center; align-items: center;position: relative; }
+
+    .part1 .parti .left1 {width: 70%;   display: flex; justify-content: center; align-items: center; flex-wrap: wrap;} 
+    .part1 .parti .left1 h2 {text-align: center; width: 100%; margin: 0.5rem 0;}
+    .part1 .parti .left1 p {text-align: center;width: 100%;}
+
+    .part1 .parti .right1 { width: 90%;   }
+
+
+
+
+    .part2 .item2 { width: 48% ;}
+
+
+    .part3 .column3 {  width: 48%;}
+    .part3 {  flex-wrap: nowrap;} 
+
+
+    .part4 .item4 {width: 49.5% ;}
+
+
+    .input4 { width: 100%; }
+
+
+
+    .part5 .column51 { width: 49.5%; }
+
+
+
+    .part5 .column52 {width: 99% ; order: 3;}
+
+    .column53{ width: 49.5%;}
+
+    .inputgrp{ display: flex; justify-content: space-between;width: 100%; flex-direction: column; flex-wrap: wrap; row-gap: 1rem;}
+
+}
+
+
+
+
+@media screen and (max-width:550px) {
+
+.container{ display: flex; align-items: center; justify-content: center; flex-wrap: wrap;}
+    html { font-size: 12px;}
+    .part1 { height: fit-content; padding: 3rem 0;}
+    .parti{  display: flex; flex-direction: block; flex-wrap: wrap-reverse;  justify-content: center; align-items: center;position: relative; }
+
+    .part1 .parti .left1 {width: 70%;   display: flex; justify-content: center; align-items: center; flex-wrap: wrap;} 
+    .part1 .parti .left1 h2 {text-align: center; width: 100%; margin: 0.5rem 0;}
+    .part1 .parti .left1 p {text-align: center;width: 100%;}
+
+    .part1 .parti .right1 { width: 90%;   }
+
+
+
+
+    .part2 .item2 { width: 70% ;}
+
+
+    .part3 .column3 {  width: 70%;}
+    .part3 {  flex-wrap: nowrap;} 
+
+
+    .part4 .item4 {width: 99.5% ;}
+
+
+    .input4 { width: 100%; }
+
+
+
+    .part5 .column51 { width: 90%; }
+
+
+
+    .part5 .column52 {width: 99% ; order: 3;}
+
+    .column53{ width: 99%;}
+
+    .inputgrp{ display: flex; justify-content: space-between;width: 100%; flex-direction: column; flex-wrap: wrap; row-gap: 1rem;}
+
+}
